@@ -144,10 +144,11 @@ public class Listagem extends javax.swing.JFrame {
         
  String sql = "SELECT id, produtor, `nome_episodio` AS nome_episodio, " +
              "`numero_episodio` AS numero_episodio, `Duracao` AS duracao, " +
-             "`url_repositorio` FROM Podcast"; // Corrigido a query SQL
+             "`url_repositorio` FROM Podcast"; 
 
 try (Connection con = Connect.getConnection(); // Conexão
      PreparedStatement stmt = con.prepareStatement(sql); 
+        
      ResultSet rs = stmt.executeQuery()) {
     
     // Configurar o modelo do JTable

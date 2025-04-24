@@ -14,9 +14,9 @@ import java.sql.SQLException;
 
 public class Connect{
     // Configurações do Banco de Dados
-    private static final String URL = "jdbc:mysql://localhost:3306/Cenaflix2"; // Ajuste se necessário
-    private static final String USER = "root"; 
-    private static final String PASSWORD = "Bonis@00";
+    private static final String URL = "jdbc:mysql://localhost:3306/seu_banco"; // Ajuste se necessário
+    private static final String USER = "usuario"; 
+    private static final String PASSWORD = "senha";
 
     public static Connection getConnection() throws SQLException {
         try {

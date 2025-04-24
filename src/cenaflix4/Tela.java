@@ -158,9 +158,9 @@ public class Tela extends javax.swing.JFrame {
 
     try {
         // Conectar ao banco de dados (Altere os parâmetros conforme seu banco)
-        String url = "jdbc:mysql://localhost:3306/Cenaflix2"; 
-        String usuario = "root"; // Usuário do MySQL
-        String senha = "Bonis@00"; // Senha do MySQL
+        String url = "jdbc:mysql://localhost:3306/seu_banco"; 
+        String usuario = "usuario"; // Usuário do MySQL
+        String senha = "senha"; // Senha do MySQL
 
         conn = DriverManager.getConnection(url, usuario, senha);
 

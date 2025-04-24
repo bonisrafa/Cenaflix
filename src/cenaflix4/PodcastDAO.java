@@ -14,9 +14,9 @@ import java.util.List;
 public class PodcastDAO {
     
 
-    private final String url = "jdbc:mysql://localhost:3306/Cenaflix2"; // Nome correto do BD
-    private final String user = "root";
-    private final String password = "Bonis@00";
+    private final String url = "jdbc:mysql://localhost:3306/seu_banco"; // Nome correto do BD
+    private final String user = "usuario";
+    private final String password = "senha";
 
     public List<String> listarPodcasts() throws SQLException {
         String query = "SELECT * FROM podcasts"; // Nome correto da tabela
